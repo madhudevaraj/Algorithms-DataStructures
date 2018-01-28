@@ -32,7 +32,6 @@ public class Solution {
                     newstr = newstr+m.getKey(); 
                   }
               }
-              
              if(newstr != "")
                 {
                   return newstr;
