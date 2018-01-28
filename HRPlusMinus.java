@@ -23,8 +23,7 @@ public class Solution {
                 zer++;
         }
          DecimalFormat df = new DecimalFormat("###.######");
-        System.out.print(df.format(pos/len)+"\n"+df.format(neg/len)+"\n"+df.format(zer/len));
-            
+        System.out.print(df.format(pos/len)+"\n"+df.format(neg/len)+"\n"+df.format(zer/len));        
     }
 
     public static void main(String[] args) {
