@@ -30,7 +30,6 @@ public class Solution {
             int hr = Integer.parseInt(hour)+12;
             newHour = (hour.equals("12")? "12": Integer.toString(hr));
         }
-
         newTime = newHour+":"+min+":"+sec;
         return newTime;
     }
