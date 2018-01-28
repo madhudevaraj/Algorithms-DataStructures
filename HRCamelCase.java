@@ -20,9 +20,8 @@ public class Solution {
                 count++;
             }
         }
-        
         return count;
-        
+   
     }
 
     public static void main(String[] args) {
