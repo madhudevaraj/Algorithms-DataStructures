@@ -33,8 +33,6 @@ public class Solution {
         
         int num = hm.get(max);
         return num;
-        
-        
     }
 
     public static void main(String[] args) {
