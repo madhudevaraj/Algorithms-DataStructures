@@ -62,7 +62,5 @@ public class Solution {
             System.out.print(result[i] + (i != result.length - 1 ? " " : ""));
         }
         System.out.println("");
-        
-
     }
 }
