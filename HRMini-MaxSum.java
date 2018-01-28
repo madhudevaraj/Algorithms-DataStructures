@@ -25,7 +25,6 @@ public class Solution {
             
             sum = sum + a[i];
         }
-        
         System.out.print(sum-max+" "+(sum-min));
     }
 
