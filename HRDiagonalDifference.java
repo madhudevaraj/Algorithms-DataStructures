@@ -27,7 +27,6 @@ public class Solution {
                 }
             }
         }
-       
         return Math.abs(priD-secD);
     }
 
