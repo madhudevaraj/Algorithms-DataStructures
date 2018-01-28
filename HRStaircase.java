@@ -14,7 +14,6 @@ public class Solution {
         {
            System.out.println(new String(new char[n-i]).replace('\0',' ')+ new String(new char[i]).replace('\0','#'));
         }
-      
     }
 
     public static void main(String[] args) {
