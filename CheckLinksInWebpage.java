@@ -2,7 +2,7 @@
 // Method to find all links in the webpage
 public List getLinks(WebDriver driver) {
 	List linksList = new ArrayList();
-	// All links are usually inside anchor tags Eg: <a href="https://www.sample.com">abc</a>
+	// All links are usually inside anchor tags Eg: <a href="http://www.sample.com">abc</a>
 	linksList.addAll(driver.findElements(By.tagName("a")));
 	 List linksFinalList = new ArrayList();
 		// Filtering out links that don't have href
